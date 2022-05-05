@@ -1,0 +1,6 @@
+----Registro 1---- 
+Nome: Luiz
+Endereco: asdasdas
+Telefone: 155165
+
+
