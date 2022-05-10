@@ -66,7 +66,7 @@ int main(){
 				if(opcChut == 1){
 					printf("\n\nQuantas unidades deseja comprar? ");
 					scanf("%d", &unidades);
-					if(unidades > nike){
+					if(unidades > nike || unidades < 0){
 						printf("\n\nNao ha essa quantidade no estoque!\n\n");
 					}else{
 						printf("\n\nValor total: R$%.2f\n\n", vlrNike * unidades);
@@ -85,7 +85,7 @@ int main(){
 				}else if(opcChut == 2){
 					printf("\n\nQuantas unidades deseja comprar? ");
 					scanf("%d", &unidades);
-					if(unidades > adidas){
+					if(unidades > adidas || unidades < 0){
 					printf("\n\nNao ha essa quantidade no estoque!\n\n");
 					}else{
 						printf("\n\nValor total: R$%.2f\n\n", vlrAdidas * unidades);
@@ -104,7 +104,7 @@ int main(){
 				}else if(opcChut == 3){
 					printf("\n\nQuantas unidades deseja comprar? ");
 					scanf("%d", &unidades);
-					if(unidades > puma){
+					if(unidades > puma || unidades < 0){
 						printf("\n\nNao ha essa quantidade no estoque!\n\n");
 					}else{
 						printf("\n\nValor total: R$%.2f\n\n", vlrPuma * unidades);
